@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   post "/register", to: "register#index"
   # Defines the root path route ("/")
   # root "articles#index"
-  get "/login", to: "login:index"
+  get "/login", to: "login#index"
 end
