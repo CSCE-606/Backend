@@ -4,7 +4,7 @@ class LoginController < ApplicationController
     @username = params[:username]
     @password = params[:password]
 
-    @user = User.find(@username)
+    @user = Users.find(@username)
 
     print("hello",@username, @password)
     print(@user)
